@@ -1,0 +1,14 @@
+using System;
+public class HelloWorld
+{
+     static void Main(string[] args)
+    {
+        int num=90887;
+        //7
+        //8
+        //8
+        //0
+        //9
+        Console.WriteLine ("");
+    }
+}
