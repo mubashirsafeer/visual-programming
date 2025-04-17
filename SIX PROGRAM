@@ -1,0 +1,15 @@
+using System;
+public class HelloWorld
+{
+      static void Main(string[] args)
+    {
+        Console.WriteLine("Mubashir");
+        int x=50;
+        int y=30;
+        Console.WriteLine(x+y);
+        string fname="javed";
+           Console.WriteLine("Mubashir");
+     string sname="Ali";
+        Console.WriteLine(fname + sname);
+    }
+}
