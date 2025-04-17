@@ -1,0 +1,19 @@
+using System;
+public class HelloWorld
+{
+      static void Main(string[] args)
+    {
+        const string A="Mubashir";
+        int B=123;
+        double C=45687;
+        float D =9.65f;
+        Char E='G'
+        long F=123456;
+         Console.WriteLine(A);
+            Console.WriteLine(B) ;
+               Console.WriteLine(C);
+                  Console.WriteLine(D);
+                   Console.WriteLine (E);
+                    Console.WriteLine(F);
+    }
+}
