@@ -1,0 +1,19 @@
+using System;
+public class HelloWorld
+{
+    static void Main(string[] args)
+    {
+        int x = 50;
+        int y = 40;
+        int z = 20;
+        int n = 30;
+        int sum = x + y + z + n;
+        int diff = x - y - z - n;
+        int prod = x * y * z * n;
+        double divi = (double)x / y;
+
+        Console.WriteLine("sum" + sum);
+        Console.WriteLine("prod" + prod);
+        Console.WriteLine("divi:(x / y):" + divi);
+    }
+}
