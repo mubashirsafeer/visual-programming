@@ -1,0 +1,15 @@
+using System;
+public class HelloWorld
+{
+    static void Main(string[] args)
+    {
+        int x = 50;
+        int y = 40;
+        int z = 20;
+        int n = 30;
+        int maxvalue = Math.Max(Math.Max(x, y), Math.Max(z, n));
+        int minvalue = Math.Max(Math.Max(x, y), Math.Max(z, n));
+        Console.WriteLine("Maximum Value" + maxvalue);
+        Console.WriteLine("Minimum Value" + minvalue);
+    }
+}
