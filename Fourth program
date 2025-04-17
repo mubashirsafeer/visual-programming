@@ -1,0 +1,16 @@
+using System;
+public class HelloWorld
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Mubashir");
+        int x = 2;
+        float y = 9.66f;
+        double z = 500;
+        string n = "Mubashir";
+          Console.WriteLine(x);
+        Console.WriteLine(y);
+           Console.WriteLine(z);
+        Console.WriteLine(n);
+    }
+}
