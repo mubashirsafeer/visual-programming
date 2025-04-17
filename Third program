@@ -1,0 +1,15 @@
+using System;
+public class HelloWorld
+{
+     static void makeTea()
+    {
+         Console.WriteLine ("Take a katel");
+            Console.WriteLine ("Pour some water in it");
+               Console.WriteLine ("boil water");
+                  Console.WriteLine ("add some leaves of tea");
+    }
+     static void Main(string[] args)
+     {
+         makeTea();
+     }
+}
