@@ -1,0 +1,45 @@
+using System;
+
+public class HelloWorld
+{
+    void name(string a, int b)
+    {
+        Console.WriteLine("Name is: " + a);
+        Console.WriteLine("Age is: " + b);
+    }
+
+    int sum(int a, int b)
+    {
+        return a + b;
+    }
+
+    int sub(int a, int b)
+    {
+        return a - b;
+    }
+
+    float div(int a, int b)
+    {
+        return (float)a / b;
+    }
+
+    int mul(int a, int b)
+    {
+        return a * b;
+    }
+
+    public static void Main(string[] args)
+    {
+        HelloWorld obj = new HelloWorld();
+
+        Console.WriteLine("Sum of two numbers: " + obj.sum(12, 14));
+        Console.WriteLine("Sub of two numbers: " + obj.sub(12, 14));
+        Console.WriteLine("Div of two numbers: " + obj.div(12, 14));
+        Console.WriteLine("Mul of two numbers: " + obj.mul(12, 14));
+        obj.name("Mubashir", 20);
+    }
+}
+
+
+
+
